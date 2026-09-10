@@ -1,28 +1,17 @@
 body{
-background-color: azure;
+background-color: rgb(133, 132, 130);
 align-items: center;
 }
 
-
-.get  {
-padding: auto;
-align-items: center;
-color: #000000;
-padding: auto;
- margin-left: 700px;
- margin-top: 150px;
-   
-
+p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
 }
 
-
-button{
- 
-    height: 40px;
-    width: 80px;
-    color: rgb(0, 0, 0);
-}
-
-button :hover{
- background-color: aliceblue;
+.knapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
