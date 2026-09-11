@@ -1,6 +1,7 @@
 body{
-background-color: rgb(133, 132, 130);
+background-color: rgb(199, 199, 199);
 align-items: center;
+margin-top: 200px;
 }
 
 p{
@@ -9,9 +10,34 @@ p{
     text-align-last: center;
 }
 
-.knapp{
+
+
+
+.knapp {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    gap: 15px;
 }
+
+.knapp button {
+    width: 400px;
+    height: 70px;
+    font-size: 22px;
+    cursor: pointer;
+      border: 2px solid black;
+      border-radius: 10px;
+}
+
+
+#reset {
+    display: none;
+    margin: 20px auto;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
